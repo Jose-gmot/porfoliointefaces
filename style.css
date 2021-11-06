@@ -464,7 +464,7 @@ body{
         background-color: #212B31;
         text-align: center;
         color:white;
-        font-size: 1.5em;
+        font-size: 8px;
     
     
     }
@@ -598,6 +598,10 @@ body{
         right: 0;
         margin: 1em;
         margin-top: 12em;
+        /*
+                width: 8em;
+        float: right;
+    */
     
     }
     
