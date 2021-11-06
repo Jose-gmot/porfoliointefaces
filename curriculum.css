@@ -1,0 +1,169 @@
+body{
+
+    background-color: #666666;
+
+}
+
+.curriculum{
+
+    background-color: #212B31;
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 3em;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.curriculum h1{
+    
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    text-decoration: underline;   
+}
+.curriculum h2{
+    
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+    text-align: left;
+}
+.curriculum p{
+    
+    font-size: 0.6em;
+    padding-bottom: 1em;
+}
+
+.retrato{
+    background-color: #B5B6B8;
+    border-radius: 12px;
+    padding: 1em;
+    width: 6em;
+    height: 6em;
+}
+
+    
+.titulocol, .titulocol h2{
+    
+    text-align: center;
+
+
+}
+
+
+/*
+###############
+############
+#########   TABLET 768px
+#########
+#######
+*/
+@media (min-width: 768px) {
+
+
+    .curriculum{
+
+        background-color: #212B31;
+        padding: 2em;
+        margin: 1em;
+        margin-bottom: 3em;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+    
+    }
+    
+    .curriculum h1{
+        
+        font-size: 2em;
+        padding-bottom: 1em;
+        text-decoration: underline;   
+    }
+    .curriculum h2{
+        
+        font-size: 1.2em;
+        padding-bottom: 1em;
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    .curriculum p{
+        
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .retrato{
+        background-color: #B5B6B8;
+        border-radius: 12px;
+        padding: 1em;
+        width: 8em;
+        height: 8em;
+    }
+    
+    .titulocol, .titulocol h2{
+    
+        text-align: center;
+    
+    
+    }
+
+}
+
+
+/*
+###############
+############
+#########   PC 1440px
+#########
+#######
+*/
+@media (min-width: 1360px) {
+    .curriculum{
+
+        background-color: #212B31;
+        padding: 2em;
+        margin: 1em;
+        margin-bottom: 3em;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+    
+    }
+    
+    .curriculum h1{
+        
+        font-size: 2em;
+        padding-bottom: 1em;
+        text-decoration: underline;   
+    }
+    .curriculum h2{
+        
+        font-size: 1.2em;
+        padding-bottom: 1em;
+        text-decoration: underline;
+        text-align: left;
+    }
+
+    .curriculum p{
+        
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .retrato{
+        background-color: #B5B6B8;
+        border-radius: 12px;
+        padding: 1em;
+        width: 10em;
+        height: 10em;
+    }
+    
+    .titulocol, .titulocol h2{
+    
+        text-align: center;
+    
+    
+    }
+}

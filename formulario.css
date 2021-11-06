@@ -1,0 +1,165 @@
+body{
+
+    background-color: #666666;
+
+}
+
+
+
+.formulario{
+
+    background-color: #212B31;
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 2em;
+
+    color: white;
+    border-radius: 50px;
+
+
+}
+
+.formulario h1{
+    
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+.form-group{
+
+    padding-bottom:2em ;
+
+
+}
+
+.form-control{
+    background-color: #B5B6B8;
+    border-radius: 10px;
+
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+.btnEnviar{
+
+    text-align: center;
+    background-color:#B5B6B8;
+    width: 10em;
+    color: white;
+    border-radius: 15px;
+}
+
+
+/*
+###############
+############
+#########   TABLET 768px
+#########
+#######
+*/
+@media (min-width: 768px) {
+
+    .formulario{
+
+        background-color: #212B31;
+        padding: 2em;
+        margin: 2em;
+
+
+        color: white;
+        border-radius: 50px;
+    
+    }
+    
+    .formulario h1{
+        
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    
+    .form-group{
+    
+        padding-bottom:2em ;
+    
+    
+    }
+    
+    .form-control{
+        background-color: #B5B6B8;
+        border-radius: 10px;
+    
+    }
+    
+    .btnEnviar{
+    
+        background-color:#B5B6B8;
+        width: 10em;
+        color: white;
+        border-radius: 15px;
+    }
+
+}
+
+
+/*
+###############
+############
+#########   PC 1440px
+#########
+#######
+*/
+@media (min-width: 1360px) {
+
+    .formulario{
+
+        background-color: #212B31;
+        padding: 2em;
+        margin: 2em;
+        margin-right: 10em;
+
+        color: white;
+        border-radius: 50px;
+    
+    }
+    
+    .formulario h1{
+        
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    
+    .form-group{
+    
+        padding-bottom: 2em ;
+
+    
+    
+    }
+    
+    .form-control{
+        background-color: #B5B6B8;
+        border-radius: 10px;
+        margin-top: 1em;
+    
+    }
+    
+    .btnEnviar{
+    
+        background-color:#B5B6B8;
+        width: 10em;
+        color: white;
+        border-radius: 15px;
+    }
+
+    
+}
